@@ -3,12 +3,20 @@
 }
 
 .foto-presentacion {
-    width: 100%;
+    width:fit-content;
 }
 
 .brillo {
-    filter: brightness(50%);
+    filter: brightness(40%);
+    max-width:100%;
+height:auto;
 }
+
+.brillos {
+  filter: brightness(40%);
+}
+
+
 
 .parent {
     position: relative;
@@ -19,6 +27,7 @@
     left: 50%;
     bottom: 20%;
 }
+
 
 .PL {
     padding-right: 10%;
@@ -125,7 +134,7 @@
     background-image: url(../imagenes/ba1.jpg);
     background-size: cover;
     background-position: center;
-    filter: brightness(50%);
+    filter: brightness(40%);
     height: 100vh;
   }
 
@@ -154,4 +163,12 @@
   padding: 0;
 
   margin: 0;
+}
+
+div.absolute {
+  position: absolute;
+  top: 10em;
+  right: 5em;
+  width: 15em;
+  height: 10em;
 }

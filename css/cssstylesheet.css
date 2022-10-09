@@ -134,7 +134,7 @@ height:auto;
     background-image: url(../imagenes/ba1.jpg);
     background-size: cover;
     background-position: center;
-    filter: brightness(40%);
+    filter: brightness(40%); 
     height: 100vh;
   }
 
